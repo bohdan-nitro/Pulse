@@ -1,0 +1,29 @@
+.reviews  {
+  width: 100%;
+  padding-bottom: 65px;
+
+  &__item {
+    display: flex;
+  }
+
+  &__img  {
+    margin-top: 70px;
+    max-width: 300px;
+    img {
+      width: 100%;
+    }
+  }
+  &__content {
+    margin-top: 65px;
+    width: 100%;
+    max-width: 650px;
+  }
+  &__name {
+    margin-bottom: 5px;
+    font-weight: 700;
+  }
+  &__descr {
+    margin-bottom: 10px;
+    color: #555555;
+  }
+}

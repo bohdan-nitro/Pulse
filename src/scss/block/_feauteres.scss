@@ -1,0 +1,35 @@
+.feauters {
+  width: 100%;
+  min-height: 500px;
+  background-color: rgba(246,246,246,246);
+  overflow: hidden;
+
+  &__wrapper {
+    margin-top: 75px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  &__item {
+    text-align: center;
+    width: 100%;
+    margin: 0 20px;
+  }
+  &__subheader {
+    margin-top: 40px;
+    font-size: 22px;
+    font-weight: 700;
+  }
+  &__description {
+    margin-top: 25px;
+    font-size: 14px;
+
+  }
+  &__link {
+    text-transform: uppercase;
+    color: red;
+  }
+
+
+
+}

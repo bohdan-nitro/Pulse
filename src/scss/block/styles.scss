@@ -1,0 +1,28 @@
+@import "../base/variables";
+
+
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Muli', sans-serif;
+  box-sizing: border-box;
+}
+
+.container  {
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+@import "../block/promo";
+@import "../block/header";
+@import "../block/buttons";
+@import "../block/feauteres";
+@import "../block/titles";
+@import "../block/forms";
+@import "../block/carousel";
+@import "../block/catalog";
+@import "../block/reviews";
+@import "../block/footer";
+@import "../block/consultation";
+@import "../block/modal";
