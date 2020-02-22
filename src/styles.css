@@ -11,7 +11,7 @@
 .promo {
   min-height: 650px;
   padding: 21px 0 93px 0;
-  background: url("../../images/bg.jpg") center center/cover no-repeat; }
+  background: url("../images/bg.jpg") center center/cover no-repeat; }
   .promo__wrapper {
     display: flex;
     flex-direction: column;
@@ -407,7 +407,7 @@
 .consultation {
   min-height: 680px;
   padding: 100px 0 92px 0;
-  background: url("../../images/bg-form.jpg") center center/cover no-repeat; }
+  background: url("../images/bg-form.jpg") center center/cover no-repeat; }
   .consultation__description {
     margin-top: 80px;
     font-size: 20px;
@@ -466,3 +466,13 @@
 
 #consultation, #order, #thanks {
   display: none; }
+
+.pageup {
+  display: none;
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  width: 40px;
+  height: 40px; }
+  .pageup img {
+    width: 100%; }
